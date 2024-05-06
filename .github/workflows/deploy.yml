@@ -13,15 +13,15 @@ jobs:
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.a1829f4cb589e213f5de222260f93ebdd1207 }}
+          accountId: ${{ secrets.f0f67eb8a0370a4f8095b9966ced4c87 }}
           secrets: |
             BOT_TOKEN
             BOT_USERNAME
             EMOJI_LIST
             RESTRICTED_CHATS
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
-          EMOJI_LIST: ${{ secrets.EMOJI_LIST }}
+          BOT_TOKEN: ${{ secrets.7171761635:AAGdZiF97a3K5Spmo2zGqR6SHwPIOlrJ-S8 }}
+          BOT_USERNAME: ${{ secrets.@rollingReact34_bot }}
+          EMOJI_LIST: ${{ secrets.👍❤🔥🥰👏😁🎉🤩🙏👌🕊😍🐳❤‍🔥💯⚡🏆 }}
           RESTRICTED_CHATS: ${{ secrets.RESTRICTED_CHATS }}
